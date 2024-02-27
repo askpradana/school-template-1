@@ -3,19 +3,17 @@ import { Button, DropdownMenu, Flex, Text } from '@radix-ui/themes';
 import { CaretDownIcon } from "@radix-ui/react-icons";
 
 export default function MenuBar() {
-    return <div className='flex justify-center gap-12 px-12 mt-12'>
+    return <div className='flex flex-col sm:flex-row justify-center gap-4 md:gap-12 px-4 md:px-12 mt-12'>
         <Text className='cursor-pointer'>
             Beranda
         </Text>
 
         <DropdownMenu.Root>
             <DropdownMenu.Trigger>
-                {/* <Button variant="solid" size="1"> */}
                 <Flex className='items-center cursor-pointer'>
                     Profil Sekolah
                     <CaretDownIcon />
                 </Flex>
-                {/* </Button> */}
             </DropdownMenu.Trigger>
 
             <DropdownMenu.Content>

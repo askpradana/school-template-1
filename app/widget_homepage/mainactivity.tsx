@@ -8,7 +8,7 @@ export default function MainActivity() {
 				Kegiatan Sekolah
 			</Text>
 
-			<div className="gap-8 py-12 grid grid-cols-2">
+			<div className="gap-8 py-12 grid grid-cols-1 sm:grid-cols-2">
 				<SingleCard
 					title="Kegiatan 1"
 					desc="Some desc I still not know what to write, feel free to add or conenct this to backend"

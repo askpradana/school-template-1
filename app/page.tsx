@@ -6,22 +6,20 @@ import MainPersk from "./widget_homepage/mainperks";
 import MainFooter from "./widget_homepage/mainfooter";
 import MainActivity from "./widget_homepage/mainactivity";
 
-
 export default function Home() {
-  return (
-    <div className="flex flex-col">
+	return (
+		<div className="flex flex-col">
+			<MainHeader />
 
-     <MainHeader />
+			<MenuBar />
 
-      <MenuBar />
+			<MainCarousel />
 
-      <MainCarousel />
+			<MainPersk />
 
-     <MainPersk />
+			<MainActivity />
 
-     <MainActivity />
-
-     <MainFooter />
-    </div>
-  );
+			<MainFooter />
+		</div>
+	);
 }

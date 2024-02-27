@@ -11,7 +11,7 @@ export default function MainCarousel() {
 
     return (
         <div className="flex justify-center mt-12">
-            <Carousel width="700px" showThumbs={false} autoPlay={true} interval={2000} infiniteLoop={true} showIndicators={false} showStatus={false}>
+            <Carousel className="w-[700px]" showThumbs={false} autoPlay={true} interval={2000} infiniteLoop={true} showIndicators={false} showStatus={false}>
                 <div>
                     <Image src={Gambar1} alt="image1" />
                 </div>

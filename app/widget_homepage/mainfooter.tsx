@@ -2,7 +2,7 @@ import { Flex, Strong } from "@radix-ui/themes"
 
 export default function MainFooter() {
     return (
-        <div className="h-[480px] bg-neutral-500 text-white flex flex-col justify-between p-8">
+        <div className="h-[480px] bg-neutral-500 text-white flex flex-col justify-between p-4 md:p-8">
             <Flex direction="row" gap="8">
                 <div>
                     <Strong>Social Media</Strong>
@@ -35,7 +35,7 @@ export default function MainFooter() {
                     </Flex>
                 </div>
             </Flex>
-            <h1 className="uppercase text-7xl font-extrabold">Nama Sekolah</h1>
+            <h1 className="uppercase text-4xl md:text-7xl font-extrabold">Nama Sekolah</h1>
         </div>
     )
 }
